@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:orientation="horizontal" android:gravity="start" android:padding="6dp">
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:orientation="vertical" android:background="#263238" android:padding="10dp">
+        <Button android:id="@+id/playButton" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="▶" android:minWidth="120dp"/>
+        <TextView android:id="@+id/timeText" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:textSize="11sp" android:textColor="#90A4AE"/>
+    </LinearLayout>
+</LinearLayout>
