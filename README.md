@@ -1,0 +1,3 @@
+Repo containing a Proof-of-Concept application for off-grid communication via BLE (voice messages). The idea is to enhance text-based applications as such (e.g. BitChat) via voice messaging.
+Instead of traditional audio codecs, the application uses EnCodec for audio compression and transmission (alongside some tricks for further compression).
+The application smoothly runs on a POCO X5 and a RedMi-Note 10, both being very old smartphones...
